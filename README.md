@@ -1,9 +1,12 @@
 MVC_CRUD_JAVA
+
 **📌 Giới thiệu**
+
 Đây là ứng dụng demo mô hình MVC được xây dựng bằng Java theo mô hình MVC (Model – View – Controller).
 Ứng dụng cho phép thực hiện các chức năng CRUD (Thêm, xem, sửa, xóa) dữ liệu sản phẩm trong cơ sở dữ liệu.
 Giao diện được xây dựng bằng Swing và kết nối cơ sở dữ liệu MySQL thông qua JDBC.
 **🏗 Kiến trúc MVC**
+
 View (Swing GUI)
       ↓
 Controller
