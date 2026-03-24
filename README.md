@@ -14,7 +14,9 @@ Controller
 Model
       ↓
 Database (MySQL)
+
 **🛠 Công nghệ sử dụng**
+
 Java
 Swing (GUI)
 JDBC
@@ -22,7 +24,9 @@ MySQL
 phpMyAdmin
 IntelliJ IDEA
 Git & GitHub
+
 **Cấu trúc Project**
+
 src
  ├─ connect
  │   └─ conDB
@@ -42,7 +46,9 @@ src
  │
  ├── README.md
  └── .gitignore
-  **Cơ sở dữ liệu**
+
+**Cơ sở dữ liệu**
+
 Database: demo1
 CREATE TABLE product (
     product_id INT AUTO_INCREMENT PRIMARY KEY,
@@ -50,21 +56,29 @@ CREATE TABLE product (
     order_num INT,
     active BOOLEAN
 );
+
 **Chức năng**
+
 Thêm sản phẩm
 Hiển thị danh sách sản phẩm
 Cập nhật sản phẩm
 Xóa sản phẩm
 Hiển thị dữ liệu bằng JTable
+
 **Cách chạy project**
+
 **1. Tạo database**
+
 Tạo database demo1 trong phpMyAdmin.
+
 **2. Cấu hình kết nối database**
+
 Sửa trong file:
 DBConnection.java
 String url = "jdbc:mysql://localhost:3306/demo1";
 String user = "root";
 String password = "";
+
 **3. Chạy chương trình**
 Chạy file:
 Main.java
