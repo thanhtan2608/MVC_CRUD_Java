@@ -1,40 +1,37 @@
-MVC_CRUD_JAVA
+**MVC_CRUD_JAVA**
 
 **📌 Giới thiệu**
 
 Đây là ứng dụng demo mô hình MVC được xây dựng bằng Java theo mô hình MVC (Model – View – Controller).
 Ứng dụng cho phép thực hiện các chức năng CRUD (Thêm, xem, sửa, xóa) dữ liệu sản phẩm trong cơ sở dữ liệu.
-Giao diện được xây dựng bằng Swing và kết nối cơ sở dữ liệu MySQL thông qua JDBC.
+Giao diện được xây dựng bằng Swing và kết nối cơ sở dữ liệu phpMyAmin thông qua JDBC.
+
 **🏗 Kiến trúc MVC**
 
-View (Swing GUI)
-      ↓
-Controller
-      ↓
-Model
-      ↓
-Database (MySQL)
+View (Swing GUI)->
+  Controller->
+    Model->
+Database (phpMyAmin)
 
 **🛠 Công nghệ sử dụng**
 
 Java,
 Swing (GUI),
 JDBC,
-MySQL,
 phpMyAdmin,
 IntelliJ IDEA,
 Git & GitHub.
 
-**Cấu trúc Project**
+**📂 Cấu trúc Project**
 
 src
  ├─ connect
  
- │   └─ conDB
+ │   └─ conDB.java
  
  ├─ controler
  
- │   └─ productControler
+ │   └─ productControler.java
  
  ├─ data
  
@@ -42,17 +39,17 @@ src
  
  ├─ model
  
- │   └─ product
+ │   └─ product.java
  
  ├─ view
  
  │   └─ viewproduct
  
- │        ├─ viewproduct
+ │        ├─ viewproduct.java
  
  │        └─ viewproduct.form
  
- └─ Main
+ └─ Main.java
  
  ├── data
  
@@ -65,25 +62,25 @@ src
  └── .gitignore
 
 
-**Cơ sở dữ liệu**
+**🗄Cơ sở dữ liệu**
 
 Database: demo1
 CREATE TABLE product (
-    product_id INT AUTO_INCREMENT PRIMARY KEY,
-    pro_name VARCHAR(255),
-    order_num INT,
-    active BOOLEAN
+    productId INT AUTO_INCREMENT PRIMARY KEY,
+    proName VARCHAR(255),
+    oder INT,
+    isActive BOOLEAN
 );
 
-**Chức năng**
+**✨Chức năng**
 
-Thêm sản phẩm
-Hiển thị danh sách sản phẩm
-Cập nhật sản phẩm
-Xóa sản phẩm
-Hiển thị dữ liệu bằng JTable
+Thêm sản phẩm,
+Hiển thị danh sách sản phẩm,
+Cập nhật sản phẩm,
+Xóa sản phẩm,
+Hiển thị dữ liệu bằng JTable.
 
-**Cách chạy project**
+**▶️ Cách chạy project**
 
 **1. Tạo database**
 
@@ -91,10 +88,12 @@ Tạo database demo1 trong phpMyAdmin.
 
 **2. Cấu hình kết nối database**
 
-Sửa trong file:
-DBConnection.java
+Sửa trong file: conDB.java
+
 String url = "jdbc:mysql://localhost:3306/demo1";
+
 String user = "root";
+
 String password = "";
 
 **3. Chạy chương trình**
@@ -102,5 +101,5 @@ String password = "";
 Chạy file:
 Main.java
 
-**👨‍💻 Tác giả**
-Thanh Tấn
+**👨‍💻 Tác giả:**
+ Thanh Tấn
