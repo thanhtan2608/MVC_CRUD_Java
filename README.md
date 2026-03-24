@@ -17,13 +17,13 @@ Database (MySQL)
 
 **🛠 Công nghệ sử dụng**
 
-Java
-Swing (GUI)
-JDBC
-MySQL
-phpMyAdmin
-IntelliJ IDEA
-Git & GitHub
+Java,
+Swing (GUI),
+JDBC,
+MySQL,
+phpMyAdmin,
+IntelliJ IDEA,
+Git & GitHub.
 
 **Cấu trúc Project**
 
