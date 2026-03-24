@@ -29,23 +29,41 @@ Git & GitHub
 
 src
  ├─ connect
+ 
  │   └─ conDB
+ 
  ├─ controler
+ 
  │   └─ productControler
+ 
  ├─ data
+ 
  │   └─ database.sql
+ 
  ├─ model
+ 
  │   └─ product
+ 
  ├─ view
+ 
  │   └─ viewproduct
+ 
  │        ├─ viewproduct
+ 
  │        └─ viewproduct.form
+ 
  └─ Main
+ 
  ├── data
+ 
  │   └── database.sql
+
  │
+ 
  ├── README.md
+ 
  └── .gitignore
+
 
 **Cơ sở dữ liệu**
 
@@ -80,7 +98,9 @@ String user = "root";
 String password = "";
 
 **3. Chạy chương trình**
+
 Chạy file:
 Main.java
+
 **👨‍💻 Tác giả**
 Thanh Tấn
